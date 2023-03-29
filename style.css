@@ -1,0 +1,76 @@
+/* Created by Joel Southall on March 28, 2023 for his Ifrit chatgpt project */
+
+
+/* Reset styles for better cross-browser consistency */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set some basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f2f2f2;
+    padding: 1rem;
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Style the form and input */
+form {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Style the button */
+button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #0069d9;
+    }
+
+/* Style the textarea */
+textarea {
+    display: block;
+    width: 100%;
+    height: 10rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    line-height: 1.5;
+    resize: vertical;
+}

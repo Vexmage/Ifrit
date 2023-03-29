@@ -1,0 +1,33 @@
+<!-- Created by Joel Southall on March 28, 2023 for his Ifrit chatgpt project -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ChatGPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ChatGPT</h1>
+
+    <!-- Form to input chat prompt -->
+    <div>
+        <label for="prompt">Chat Prompt:</label>
+        <input type="text" id="prompt" name="prompt">
+    </div>
+
+    <!-- Button to generate response -->
+    <div>
+        <button id="generate-response">Generate Response</button>
+    </div>
+
+    <!-- Textarea to display generated response -->
+    <div>
+        <label for="response">Chat Response:</label>
+        <textarea id="response" name="response" readonly></textarea>
+    </div>
+
+    <!-- Reference to chat.js script file -->
+    <script src="chat.js"></script>
+</body>
+</html>
