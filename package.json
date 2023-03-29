@@ -1,15 +1,25 @@
 {
-  "name": "chatgpt",
+  "name": "ifrit",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# Ifrit\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Joel Southall",
   "license": "ISC",
   "dependencies": {
-    "openai": "github:openai/openai-node"
-  }
+    "@openai/openai-api": "0.9.0",
+    "express": "^4.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vexmage/Ifrit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vexmage/Ifrit/issues"
+  },
+  "homepage": "https://github.com/Vexmage/Ifrit#readme"
 }

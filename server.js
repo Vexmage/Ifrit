@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
-const openai = require('openai');
+const openai = require('@openai/openai-api');
 const bodyParser = require('body-parser');
 
 // Set your OpenAI API key
-const apiKey = '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';
+const apiKey = '';
 
 // Initialize the OpenAI API client with your API key
 const client = new openai(apiKey);
